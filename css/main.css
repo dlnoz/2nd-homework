@@ -1,0 +1,8 @@
+.users-list::-webkit-scrollbar{
+    display: none;
+}
+
+.users-list{
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
