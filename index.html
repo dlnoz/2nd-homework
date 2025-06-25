@@ -3,34 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/tailwindcss"></style>
-    <title>Document</title>
+    <title>3-dars amaliyot</title>
     <link rel="stylesheet" href="./css/main.css">
+    <style type="text/tailwindcss"></style>
 </head>
-<body class="p-5 overflow-y-hidden">
-    
-    <ul class="flex justify-between">
-        <div class="w-[28%] h-[95vh] overflow-y-auto border-[10px] border-slate-900 rounded-[65px]">
-            <span class="w-[160px] h-[40px] bg-slate-900 flex items-center mx-auto rounded-[25px] mt-[10px]"></span>
-            <ul class="users-list flex flex-col gap-[5px]">
-                <img class="users-img w-[70px] h-[70px] rounded-full" src="./images/apple-white-logo.jpg" alt="">
-            </ul>
-        </div>
+<body>
+    <div class="containers pt-[100px]">
+        <form autocomplete="off" class="todo-form w-full max-w-[400px] p-6 bg-white rounded-2xl shadow-lg flex flex-col gap-4 mx-auto">
+            <input class="px-4 py-2 rounded-lg outline-none  shadow-md shadow-slate-500 focus:shadow-green-700 text-gray-700 placeholder-gray-400" maxlength="10" type="text" name="todo" placeholder="Yozing...">
+            <button class="bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 hover:scale-[1.1]  duration-300 font-medium" type="submit">Yuborish</button>
+        </form>
+        <ul class="list max-w-[950px] flex justify-between flex-wrap space-y-[20px] mt-[30px] mx-auto"></ul>
 
-
-
-        <!-- <div class="w-[28%] h-[95vh] overflow-y-auto border-[10px] border-slate-900 rounded-[65px]">
-            <span class="w-[160px] h-[40px] bg-slate-900 flex items-center mx-auto rounded-[25px] mt-[10px]"></span>
-        </div>
-
-        <div class="w-[28%] h-[95vh] overflow-y-auto border-[10px] border-slate-900 rounded-[65px]">
-            <span class="w-[160px] h-[40px] bg-slate-900 flex items-center mx-auto rounded-[25px] mt-[10px]"></span>
-        </div> -->
-    </ul>
-
-
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

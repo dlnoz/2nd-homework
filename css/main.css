@@ -1,8 +1,9 @@
-.users-list::-webkit-scrollbar{
-    display: none;
+.containers{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.users-list{
-    -ms-overflow-style: none;
-    scrollbar-width: none
+body {
+  background-image: linear-gradient(to bottom right, #000000, #1e8a47, #cadc26); 
+  min-height: 100vh;
 }
